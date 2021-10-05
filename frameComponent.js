@@ -23,21 +23,3 @@ class FrameComponent{
   }
 
 }
-
-
-function setup(){
-
-  createCanvas(1000,1000);
-  strokeWeight(3);
-  noLoop();
-  fill('black');
-  noStroke();
-
-}
-
-function draw(){
-
-  let fc = new FrameComponent(10, createVector(500,500), createVector(250,250));
-  fc.draw();
-
-}
